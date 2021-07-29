@@ -1,0 +1,82 @@
+git init
+
+
+git config --global user.name "gous shaik"
+git config --global user.email "gousshaik88@gmail.com"
+
+git config --list
+
+--------------------------------------------------------------------------------
+TO ADD FILES IN WORKPLACE
+
+touch file1
+ls
+git status
+
+
+
+TO TRANSFER FILES TO STAGING / INDEX
+
+git add file1
+git status
+
+
+TO TRANSFER FILES TO LOCAL REPO
+
+git commit -m "label" file
+git status
+
+git log
+git show cid
+
+
+FOR MULTIPLE FILES ADDITION
+
+touch file1 file2 file3  
+ls
+git status
+
+
+git add file1 file2 file3 file4
+or
+
+git add.
+or
+
+git add*
+or
+
+git add -A
+git add-A
+git status
+git commit -m "all file"
+
+git status
+git log
+
+----------------------------------------------------------------------------------
+
+
+FROM STAGING TO WORKPLACE
+
+git reset HEAD file namels
+
+
+FROM LOCAL REPO TO STAGING 
+git reset --soft CID [N - 1]
+
+FROM LOCAL REPO TO WORKSPACE
+
+git reset --mixed cid[n-1]
+
+
+to delete = git reset --hard cid [n-1]
+
+
+
+
+ git clone https://github.com/gousshaik/devops-gous.git
+
+ 
+
+
